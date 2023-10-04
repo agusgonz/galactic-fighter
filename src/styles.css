@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "PixelGameFont";
+	src: url("/public/fonts/PixelGameFont.ttf");
+}
+
+body {
+	height: 100vh;
+	background-color: #202020;
+	margin: 0;
+
+	font-family: "PixelGameFont";
+}
+.main {
+	height: 100%;
+	position: relative;
+}
+.container-ui {
+	position: absolute;
+}
+.round-ui {
+	position: absolute;
+	padding: 12px;
+	font-size: 50px;
+	color: white;
+}
+.button-ui {
+	all: unset;
+	cursor: pointer;
+	background-color: #eee6e2;
+	border-radius: 8px;
+	position: absolute;
+	margin: 12px;
+	padding-inline: 16px;
+	padding-block: 8px;
+	font-size: 22px;
+	top: 120px;
+}
