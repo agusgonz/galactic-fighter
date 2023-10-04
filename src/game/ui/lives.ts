@@ -96,7 +96,6 @@ export class HeartsRow {
 	}
 
 	heartLost() {
-		console.log("heartLost")
 		this.hearts.forEach(heart => {
 			heart.setSprite("whiteTransitionHeart")
 		})

@@ -877,8 +877,6 @@ window.addEventListener("keydown", event => {
 // Player 1
 
 window.addEventListener("keydown", event => {
-	console.log(event)
-
 	switch (event.code) {
 		case "KeyW":
 			players[0].jump()
