@@ -51,17 +51,17 @@ const heartRowUI = new HeartsRow({
 	imageScale: 3,
 	spaceBetweenHearts: 50,
 	maxLives: MAX_LIFES,
-	fullSrc: "../public/images/ui/lives/heartFull.png",
-	whiteTransition: "../public/images/ui/lives/fullRow.png",
-	emptySrc: "../public/images/ui/lives/heartEmpty.png",
+	fullSrc: "/images/ui/lives/heartFull.png",
+	whiteTransition: "/images/ui/lives/fullRow.png",
+	emptySrc: "/images/ui/lives/heartEmpty.png",
 })
 
 // Game options variables
 const PLANETS_SRC = [
-	"../public/images/background/earth.png",
-	"../public/images/background/mars.png",
-	"../public/images/background/moon.png",
-	"../public/images/background/jupiter.png",
+	"/images/background/earth.png",
+	"/images/background/mars.png",
+	"/images/background/moon.png",
+	"/images/background/jupiter.png",
 ]
 
 let isPaused = false
@@ -489,8 +489,7 @@ function initGame() {
 					y,
 					w,
 					h,
-					defaultImageSrc:
-						"../public/images/sprites/tiles/tile.png",
+					defaultImageSrc: "/images/sprites/tiles/tile.png",
 					scale: 0.3,
 				})
 			)
@@ -503,8 +502,7 @@ function initGame() {
 			y: canvas.height - 40,
 			w: canvas.width * 3,
 			h: 20,
-			defaultImageSrc:
-				"../public/images/sprites/tiles/tile-2.png",
+			defaultImageSrc: "/images/sprites/tiles/tile-2.png",
 			scale: 0.3,
 		})
 	)

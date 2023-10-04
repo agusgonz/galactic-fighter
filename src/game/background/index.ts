@@ -9,8 +9,7 @@ export class BackgroundImage {
 		this.x = x
 		this.y = y
 		this.image = new Image()
-		this.image.src =
-			"../public/images/background/background.png"
+		this.image.src = "/images/background/background.png"
 	}
 
 	draw() {
