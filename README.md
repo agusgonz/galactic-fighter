@@ -1,4 +1,5 @@
 # Galactic Fighter, Survival Game
+![af5rtr](https://github.com/agusgonz/galactic-fighter/assets/85971847/20a26a3d-6488-452d-a8e0-2bace250559b)
 
 ## Description
 
